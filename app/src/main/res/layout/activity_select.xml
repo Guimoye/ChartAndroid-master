@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sumit.chartandroid.Select">
+
+    <Button
+        android:id="@+id/buttonRadar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="83dp"
+        android:text="Radar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="86dp"
+        android:layout_marginStart="86dp" />
+
+    <Button
+        android:id="@+id/buttonChart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Barras"
+        android:layout_alignBaseline="@+id/buttonRadar"
+        android:layout_alignBottom="@+id/buttonRadar"
+        android:layout_toRightOf="@+id/buttonRadar"
+        android:layout_toEndOf="@+id/buttonRadar"
+        android:layout_marginLeft="53dp"
+        android:layout_marginStart="53dp" />
+
+    <Button
+    android:id="@+id/buttonTorta"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:text="Torta"
+        android:layout_marginBottom="12dp"
+        android:layout_alignBottom="@+id/buttonCuarto"
+        android:layout_alignLeft="@+id/buttonRadar"
+        android:layout_alignStart="@+id/buttonRadar" />
+
+    <Button
+        android:id="@+id/buttonCuarto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cuarto"
+        android:layout_marginTop="135dp"
+        android:layout_below="@+id/buttonChart"
+        android:layout_alignLeft="@+id/buttonChart"
+        android:layout_alignStart="@+id/buttonChart" />
+
+</RelativeLayout>
